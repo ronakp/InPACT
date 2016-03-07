@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.example.izhang.inpact.main">
+    <item android:id="@+id/action_commit" android:title="New Commitment"
+        android:showAsAction="withText|ifRoom" />
+    <item android:id="@+id/action_forcequit" android:title="Quit Commitment"
+        android:orderInCategory="100" android:showAsAction="never" />
+</menu>

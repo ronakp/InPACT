@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.izhang.inpact" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".ParseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".homePage"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".login"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".register"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name=".main"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".addCommitment"
+            android:label="@string/title_activity_add_commitment" >
+        </activity>
+        <activity
+            android:name=".addContractDetails"
+            android:label="Commitment Details" >
+        </activity>
+        <activity
+            android:name=".contractDetails"
+            android:label="Commitment Details" >
+        </activity>
+        <activity
+            android:name=".MyAdapter_invites"
+            android:label="@string/title_activity_my_adapter_invites" >
+        </activity>
+    </application>
+
+</manifest>
